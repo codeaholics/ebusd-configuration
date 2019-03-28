@@ -1,0 +1,6 @@
+# type (r[1-9];w;u),circuit,name,[comment],[QQ],ZZ,PBSB,[ID],field1,part (m/s),datatypes/templates,divider/values,unit,comment
+# VR33 OpenTherm to eBus bridge
+#*r,,,,,,"B504",,,,,,,
+#u,ots,TargetFlowTemperature,d.09 Heating flow set target temperature that is set on the eBUS room thermostat,7f,08,"B510","0000",TargetFlowTemperature,m,temp1,,,,
+u,ot,TargetFlowTemperature,,7f,08,B510,00,,m,IGN:1,,,,TargetFlowTemperature,m,temp1,,,,
+#u,ot,TargetFlowTemperature,,,08,B510,0000,TargetFlowTemperature,m,temp1,,,,
